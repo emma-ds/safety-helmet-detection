@@ -31,7 +31,7 @@ The `mobilenet-ssd` model is a Single-Shot multibox Detection (SSD) network inte
 
 Once the model is trained and selected, we have tested on several images from test dataset. The algorithm successfully detected heads and helmets with high confidence score, as the example images shows below.
 
-![result](workspace\sample-results\result.png)
+![result](workspace/sample-results/result.png)
 
 The final solution is designed as an interactive website. Users can upload the a image they want to test, adjust the minimum detection score threshold (from 0 to 1), and get the detection result as a new image with bounding boxes. If any people are detected not wearing helmets, an alert will be printed out at the bottom indicating the number of people not wearing helmets. If none are found, the web will print out "pass detection test". See the example below.
 
