@@ -7,7 +7,7 @@ Safety helmet is critical to all workers and visitors on construction sites. Acc
 To avoid any accident caused by lack of helmets on construction sites, this project designed a safety helmet detection algorithm, which automatically detects how many people in a given picture are not wearing helmets, and uses bounding box to identify their position in the picture. With this algorithm, we can alert people on sites who have not put their helmets on, alert supervisors who are monitoring the sites real-time, and thus provide a safer workspace for all workers and visitors on site.
 
 ## Data Summary
-The dataset for this project is collected from [Kaggle] (https://www.kaggle.com/andrewmvd/hard-hat-detection). This dataset contains 5000 sample images for people with and without safety helmets in the following files:
+The dataset for this project is collected from [Kaggle](https://www.kaggle.com/andrewmvd/hard-hat-detection). This dataset contains 5000 sample images for people with and without safety helmets in the following files:
 
 1. raw images in`*.png` format
 2. the respective PASCAL VOC format annotations files with bounding boxes in `*.xml` format
